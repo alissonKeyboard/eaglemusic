@@ -1,0 +1,238 @@
+#fh5co-page-new {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    float: left;
+    background: #fff;
+    width: 100%;
+    position: relative;
+    z-index: 89;
+  }
+  #fh5co-page-new.fh5co-sleep {
+    border-right: 1px solid #ccc;
+    -webkit-transform: translateX(-290px);
+    -moz-transform: translateX(-290px);
+    -ms-transform: translateX(-290px);
+    -o-transform: translateX(-290px);
+    transform: translateX(-290px);
+  }
+  
+  #fh5co-wrap-new {
+    z-index: 89;
+    position: relative;
+    float: left;
+    width: 100%;
+    background: #fff;
+  }
+  
+  #fh5co-offcanvass {
+    position: fixed;
+    z-index: 90;
+    top: 0;
+    right: 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: translateX(290px);
+    -moz-transform: translateX(290px);
+    -ms-transform: translateX(290px);
+    -o-transform: translateX(290px);
+    transform: translateX(290px);
+    bottom: 0;
+    width: 290px;
+    padding: 40px 30px;
+    background: #fff;
+    color: #878c93;
+  }
+  #fh5co-offcanvass .fh5co-lead {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #ccc;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  #fh5co-offcanvass ul {
+    padding: 0;
+    margin: 30px 0 30px 0;
+  }
+  #fh5co-offcanvass ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  #fh5co-offcanvass ul li a {
+    display: block;
+    padding: 10px 4px;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 18px;
+    color: #444;
+  }
+  #fh5co-offcanvass ul li a:hover, #fh5co-offcanvass ul li a:focus, #fh5co-offcanvass ul li a:active {
+    outline: none;
+    text-decoration: none;
+    color: #4fd2c2;
+  }
+  #fh5co-offcanvass ul li.active a {
+    color: #4fd2c2 !important;
+  }
+  #fh5co-offcanvass.fh5co-awake {
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+  #fh5co-offcanvass .fh5co-offcanvass-close {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", arial, sans-serif;
+    z-index: 99;
+    float: left;
+    color: #444;
+  }
+  #fh5co-offcanvass .fh5co-offcanvass-close i {
+    font-size: 20px;
+    margin-top: 3px;
+    float: right;
+    margin-left: 10px;
+    color: red;
+  }
+  #fh5co-offcanvass .fh5co-offcanvass-close:hover, #fh5co-offcanvass .fh5co-offcanvass-close:focus, #fh5co-offcanvass .fh5co-offcanvass-close:active {
+    outline: none;
+    text-decoration: none;
+  }
+  #fh5co-offcanvass .fh5co-logo {
+    display: block;
+    float: left;
+    width: 100%;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 0;
+    margin: 40px 0 0 0;
+  }
+  #fh5co-offcanvass .fh5co-logo a {
+    color: #000;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .fh5co-menu-btn {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 16px;
+    position: relative;
+    z-index: 10;
+    font-family: "Montserrat", arial, sans-serif;
+    color: #fff;
+  }
+  .fh5co-menu-btn i {
+    font-size: 20px;
+    margin-top: 3px;
+    float: right;
+    margin-left: 10px;
+  }
+  .fh5co-menu-btn:hover, .fh5co-menu-btn:focus, .fh5co-menu-btn:active {
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #fh5co-hero-new{
+    float: left;
+    width: 100%;
+    position: relative;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    height: 900px;
+    z-index: 10;
+    background: #4fd2c2;
+    overflow: hidden;
+  }
+  #fh5co-hero .fh5co-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    background: #3b3d40;
+    opacity: .5;
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-hero {
+      padding-top: 2em;
+      padding-bottom: 2em;
+      height: inherit;
+    }
+  }
+  #fh5co-hero .fh5co-intro {
+    width: 100%;
+    color: #fff;
+    z-index: 12;
+    position: relative;
+  }
+  #fh5co-hero .fh5co-intro .fh5co-intro-img {
+    text-align: right;
+    bottom: -5em;
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-hero .fh5co-intro .fh5co-intro-img {
+      bottom: -10em;
+    }
+    #fh5co-hero .fh5co-intro .fh5co-intro-img img {
+      max-width: 100%;
+    }
+  }
+  #fh5co-hero .fh5co-intro .fh5co-text {
+    bottom: -15em;
+  }
+  @media screen and (max-width: 992px) {
+    #fh5co-hero .fh5co-intro .fh5co-text {
+      bottom: 0;
+      bottom: -4em;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-hero .fh5co-intro .fh5co-text {
+      bottom: 0;
+      bottom: -4em;
+    }
+  }
+  #fh5co-hero .fh5co-intro h2 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-hero .fh5co-intro h2 {
+      font-size: 40px;
+      line-height: 40px;
+    }
+  }
+  #fh5co-hero .fh5co-intro p {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: .05em;
+  }
+  #fh5co-hero .fh5co-intro .btn {
+    background: #30beac;
+  }
+  #fh5co-hero .fh5co-intro .btn i {
+    font-size: 20px;
+    vertical-align: middle;
+    margin-top: -5px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+  }
+  
